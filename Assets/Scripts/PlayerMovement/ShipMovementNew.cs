@@ -61,10 +61,11 @@ public class ShipMovementNew : MonoBehaviour
                 transform.position = new Vector3(transform.position.x,Pillars[pillar-1].transform.position.y,Pillars[pillar-1].transform.position.z);
 
                 this.transform.Rotate(0,0,30f,Space.Self);
-                //Debug.Log("Esto está funcionando, letra A");
+                //Debug.Log("Esto está funcionando, letra D");
                 movementInternalTimer = movementCooldownTimer;
             }
     }
 
 
 }
+
