@@ -6,17 +6,17 @@ TO-DO List!
 Prioridad 1
 
 - Hacer un nivel 1
-- Rearmar animación de movimiento de la nave, agregándole lerp para que no se teletransporte
-- Cambiar modelo de disparo hacia algo mejor
+- Rearmar animación de movimiento de la nave, agregándole lerp para que no se teletransporte (FELIPE)
+- Cambiar modelo de disparo hacia algo mejor (FELIPE)
 - Agregar humo para cuando la nave esté con poca vida
 - Agregar efecto de postproceso bloom para cuando la nave reciba daño o muera
 - Agregar efectos (ej explosión) para cuando mate un enemigo
 - Rearmar sonido, para que no haya audiosource en los prefabs sino en la nave
-- Rearmar UI:
-  - Hacer que los textos de los botones sean claros
-  - Rehacer menú de controles para que sea más bonito
-  - Revisar UI para que entre bien en la pantalla
-- Agregar "Salir del juego" en menú de pausa
+- Rearmar UI: (NATA)
+  - Hacer que los textos de los botones sean claros (NATA)
+  - Rehacer menú de controles para que sea más bonito (NATA)
+  - Revisar UI para que entre bien en la pantalla (NATA)
+- Agregar "Salir del juego" en menú de pausa (NATA)
 
 Prioridad 2
 
