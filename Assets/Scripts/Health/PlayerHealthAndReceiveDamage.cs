@@ -1,12 +1,16 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayerHealthAndReceiveDamage : MonoBehaviour
 {
     public int startingHealth;
-
     public static int actualHealth;
     public GameObject player;
+    public AudioSource audioSource2;
+    public AudioClip crashSound;
+
+
 
 
     // Start is called before the first frame update
@@ -27,25 +31,29 @@ public class PlayerHealthAndReceiveDamage : MonoBehaviour
         if (other.gameObject.tag == "Enemy1Shoot")
         {
             actualHealth -= 10;
-            Debug.Log("Te pegaron diez de daño, ahora tienes " + actualHealth + " vida");
+            //Debug.Log("Te pegaron diez de daño, ahora tienes " + actualHealth + " vida");
+            audioSource.PlayOneShot(crashSound);
             Destroy(other.gameObject);
         }
         if (other.gameObject.tag == "Enemy2Shoot")
         {
             actualHealth -= 15;
-            Debug.Log("Te pegaron quince de daño, ahora tienes " + actualHealth + " vida");
+            //Debug.Log("Te pegaron quince de daño, ahora tienes " + actualHealth + " vida");
+            audioSource.PlayOneShot(crashSound);
             Destroy(other.gameObject);
         }
         if (other.gameObject.tag == "Enemy")
         {
             actualHealth -= 20;
-            Debug.Log("Te pegaron veinte de daño, ahora tienes " + actualHealth + " vida");
+            //Debug.Log("Te pegaron veinte de daño, ahora tienes " + actualHealth + " vida");
+            audioSource.PlayOneShot(crashSound);
             Destroy(other.gameObject);
         }
         if (other.gameObject.tag == "Enemy3")
         {
             actualHealth -= 30;
-            Debug.Log("Te pegaron treinta de daño, ahora tienes " + actualHealth + " vida");
+            //Debug.Log("Te pegaron treinta de daño, ahora tienes " + actualHealth + " vida");
+            audioSource.PlayOneShot(crashSound);
             Destroy(other.gameObject);
         }
     }

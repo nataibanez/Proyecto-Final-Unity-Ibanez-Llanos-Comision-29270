@@ -82,7 +82,7 @@ int Temporizador()
         // transform.position = new Vector3(transform.position.x,Pillars[pillar-1].transform.position.y,Pillars[pillar-1].transform.position.z);
         Instantiate(prefab, new Vector3(transform.position.x,Pillars[pillar-1].transform.position.y,Pillars[pillar-1].transform.position.z),Quaternion.identity);
 
-        Debug.Log("pos " + new Vector3(transform.position.x,Pillars[pillar-1].transform.position.y,Pillars[pillar-1].transform.position.z)+ " pillar  "+ pillar);
+        //Debug.Log("pos " + new Vector3(transform.position.x,Pillars[pillar-1].transform.position.y,Pillars[pillar-1].transform.position.z)+ " pillar  "+ pillar);
 
 
 
