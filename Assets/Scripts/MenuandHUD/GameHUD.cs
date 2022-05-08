@@ -43,4 +43,6 @@ public class GameHUD : MonoBehaviour
         isPauseActive = false; 
         Time.timeScale = 1;
     }
+
+
 }
